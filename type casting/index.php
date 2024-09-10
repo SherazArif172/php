@@ -16,4 +16,12 @@
 // $bool= (int) $bool;        // boolean to int
 // var_dump($bool)
 
+// $bool = 7;
+// $bool= (array) $bool;        // int to array
+// var_dump($bool)
+
+
+
+/// cant convert array to string anyway
+
 ?>
