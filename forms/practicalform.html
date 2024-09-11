@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="./practicalform.php" method="post">
+      <input type="text" name="name" placeholder="name" /> <br />
+      <input type="text" name="age" placeholder="age" /><br /><br />
+      <input type="checkbox" name="skill[]" value="html" /><span>html</span
+      ><br />
+      <input type="checkbox" name="skill[]" value="css" /><span>css</span><br />
+      <input type="checkbox" name="skill[]" value="java" /><span>java</span
+      ><br />
+      <input type="checkbox" name="skill[]" value="php" /><span>php</span
+      ><br /><br />
+
+      <input type="radio" name="male" value="male" /><span>male</span> <br />
+      <input type="radio" name="female" value="female" /><span>female</span>
+      <br /><br />
+
+      <select name="city">
+        <option>select your city</option>
+        <option value="karachi"></option>
+        <option value="lahoe"></option>
+        <option value="peshawar"></option>
+      </select>
+      <br /><br />
+      <textarea name="bio">jd</textarea> <br /><br />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
